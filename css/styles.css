@@ -1,0 +1,443 @@
+.header {
+    position: relative;
+    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    transition: top 0.3s;
+}
+
+#main {
+    background-color: white;
+}
+
+#logo-mowin {
+    z-index: 100;
+    margin-right: 46%;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 48px 200px 200px 200px;
+    -moz-border-radius: 48px 200px 200px 200px;
+    -webkit-border-radius: 48px 200px 200px 200px;
+    border: 2px solid white;
+    box-shadow: 5px 4px 1px 0px rgba(156,148,156,1);
+}
+
+.main1 {
+    position: relative;
+    object-fit: fill;
+    background-image: url(../images/Banne-Inicio.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 200px 80px 200px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main2 {
+    position: relative;
+    display: flex;
+}
+
+.main3 {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    height: fit-content;
+}
+
+.main4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    background-color: white;
+}
+
+.main5-up {
+    padding-block: 30px;
+    color: #000000;
+    margin-block: 5%;
+    padding-block: 5%;
+    background-color: #E5E5E5;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main5-down {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.main6 {
+    padding: 100px 150px 100px 150px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    object-fit: cover;
+    position: relative;
+    z-index: 50;
+    background-image: url(../images/Banner-video.jpg);
+    background-size: cover;
+}
+
+.main7{
+    position: relative;
+}
+
+.main8 {
+    background-color: #E4E4E4;
+    position: relative;
+    padding-block: 10%;
+}
+
+.main8-cointainer {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    height: auto;
+    margin: auto;
+}
+
+.main8-left {
+    padding-block: 3%;
+    padding-inline: 5%;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    background-color: white;
+    width: 50%;
+}
+
+.main8-left h3 {
+    font-size: 40px;
+}
+
+.main8-right {
+    padding-block: 3%;
+    padding-inline: 5%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    width: 50%;
+    background-color: #000000;
+}
+
+.main8-right h3 {
+    color: #E5E5E5;
+    font-size: 40px;
+}
+
+.place {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.phone {
+    padding-block: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.follow {
+    font-size: 19px;
+    padding-block: 4%;
+}
+
+.follow img {
+    height: 32px;
+    width: auto;
+}
+
+.buttons {
+    width: fit-content;
+    padding-block: 10%;
+}
+
+.main7-up h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-block: 30px;
+    margin-top: 5%;
+    color: black;
+    font-size: 40px;
+}
+
+.main7-down {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main7-down-cointainer img {
+    margin-inline: 70px;
+    width: 200px;
+    height: auto;
+    margin-block: 60px;
+    transition: transform 0.3s ease;
+}
+
+.main7-down-cointainer img:hover {
+    transform: translateY(-5px);
+  }
+
+.main6-left {
+    width: 30%;
+}
+
+.main6-right {
+    padding-inline: 20%;
+}
+
+
+.main6-left h3 {
+    font-family: 'XENOTRON', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.main6-left p {
+    text-align: center;
+}
+
+.main5-down-cointainer  {
+    border: 2px solid orange;
+    height: fit-content;
+    width: 10%;
+    background-size: cover;
+    /*box-shadow: 7px 10px 43px -5px rgba(0,0,0,0.75);*/
+}
+
+.main5-up h3 {
+    font-size: 30px;
+}
+
+.main5-up p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.title-cointainer {
+    background-color: white;
+}
+
+.title-cointainer h3{
+    background-color: white;
+    color: #000000;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border: 2px solid white;
+    width: fit-content;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+}
+
+.main3-left-cointainer {
+    background-image: url(../images/miscellaneous.png);
+    width: fit-content;
+    background-size: cover;
+    padding: 100px 177px 124px 177px;
+    text-align: center;
+}
+
+.main3-left-cointainer h3 {
+    font-family: 'XENOTRON', sans-serif;
+    font-size: 30px;
+}
+
+.main3-left-cointainer p {
+    font-size: 14px;
+}
+
+.main3-medium-cointainer {
+    position: relative;
+    background-image: url(../images/audio.png);
+    width: fit-content;
+    background-size: cover;
+    padding: 100px 177px 124px 177px;
+    text-align: center;
+}
+
+.main3-medium-cointainer h3 {
+    font-family: 'XENOTRON', sans-serif;
+    font-size: 30px;
+}
+
+.main3-medium-cointainer p {
+    font-size: 14px;
+}
+
+.main3-right-cointainer {
+    position: relative;
+    background-image: url(../images/telematics.png);
+    width: fit-content;
+    background-size: cover;
+    padding: 100px 185px 124px 177px;
+    text-align: center;
+}
+
+.main3-right-cointainer h3 {
+    font-family: 'XENOTRON', sans-serif;
+    font-size: 30px;
+}
+
+.main3-right-cointainer p {
+    font-size: 14px;
+}
+
+.main2-left {
+    position: relative;
+    background-image: url(../images/multiplex.jpg);
+    background-size: cover;
+    padding: 200px 100px 200px 80px;
+    object-fit: fill;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.main2-right{
+    position: relative;
+    background-image: url(../images/information.png);
+    background-size: cover;
+    padding: 200px 100px 200px 80px;
+    object-fit: fill;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.main2-right-cointainer {
+    line-height: 26px;
+    text-align: center;
+}
+
+.main2-right-cointainer h3{
+    font-size: 30px;
+    font-family: 'XENOTRON', sans-serif;
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+    background-color: white; /* Color de la línea */
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+}
+
+.line-glass {
+    width: 100%;
+    height: 1px;
+    background-color: gray; /* Color de la línea */
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    margin-top: 7%;
+}
+
+.main2-left-cointainer {
+    line-height: 26px;
+    text-align: center;
+  
+    /*border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  
+    backdrop-filter: blur(2px);*/
+}
+  
+
+.main2-left h3 {
+    font-size: 30px;
+    font-family: 'XENOTRON', sans-serif;
+}
+
+.main-medium1 {
+    width: fit-content;
+}
+
+.main-up {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main-medium {
+    width: fit-content;
+    line-height: 2;
+    animation-duration: 1.2s;
+    animation-name: slidein;
+}
+
+.main-medium h2 {
+    font-family: 'XENOTRON', sans-serif;
+    font-size: 43px;
+}
+
+.main-medium P {
+    font-size: 16px;
+}
+
+#vifdeo-background{
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 35vw;
+    opacity: 0.98;
+}
+
+@font-face {
+    font-family: 'XENOTRON'; /* Nombre que asignarás a la fuente */
+    src: url('../fuentes/xenotron/XENOTRON.TTF') format('truetype'); /* Ruta correcta al archivo .ttf */
+}
+
+.font-main-up {
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    font-size: 250%;
+    line-height: 1.5p;
+    border-radius: 10%;
+    animation-duration: 3s;
+    animation-name: slidein;
+    font-family: 'XENOTRON', sans-serif;
+}
+
+
+@keyframes slidein {
+    from {
+      
+      margin-left: 100%;
+      width: 300%;
+      filter: blur(10px);
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+footer {
+    position: relative;
+    border: 2px solid white;
+    padding-bottom: 20%;
+}
